@@ -12,12 +12,12 @@ class AkunTableSeeder extends Seeder
     public function run(): void
     {
         Akun::truncate();
-        $password = Hash::make('akun123');
+        $password = Hash::make('123');
 
         $faker = \Faker\Factory::create();
         for ($i = 0; $i < 10; $i++) {
             Akun::create([
-                'userid' => "AKUN" . $faker->unique()->randomDigit,
+                'userid' => "AKUN" . $i, // $faker->unique()->randomDigit
                 'nama' => $faker->name,
                 'password' => $password,
                 'saldo' => 0,
