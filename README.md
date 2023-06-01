@@ -10,6 +10,7 @@ composer -v
 ## Running aplikasi
 
 -   Buka folder direktori laravel.
+-   Buka folder **skema_db**, buka file **atm.sql** lalu jalankan di MySQL phpmyadmin
 -   Rename file **.env.example** menjadi **.env**
 -   Edit file **.env** dan sesuaikan konfigurasi database anda contoh
 
