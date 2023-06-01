@@ -36,5 +36,5 @@ DB_PASSWORD=(password anda)
 composer artisan serve
 ```
 
-User login : akun1 sampai akun10 (10 user)
-password : 123
+User login : **akun1** sampai **akun10** (10 user)
+password : **123**
