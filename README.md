@@ -22,7 +22,7 @@ DB_USERNAME=(username anda)
 DB_PASSWORD=(password anda)
 ```
 
--   Klik kanan dan pilih Open in terminal
+-   Klik kanan dan pilih **Open in terminal**
 -   Jalankan perintah
 
 ```
